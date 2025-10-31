@@ -1,8 +1,3 @@
-from flask import Flask, request, redirect, url_for
-import requests
-import time
-import os
-
 app = Flask(__name__)
 
 headers = {
